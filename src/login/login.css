@@ -1,0 +1,145 @@
+@import '../global.css';
+.login{
+    /* width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0; */
+    /* top: 50px; */
+    /* min-height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+    background-size: cover; */
+    /* background:url(../images/llogo.png); */
+}
+.login .overlay {
+    /* background-color: rgb(157 104 52 / 83%); */
+    /* position: absolute;
+    width: 100%;
+    height: 100%; */
+}
+form{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width: 350px;
+    height: 420px;
+    /* background: rgb(212 133 5); */
+    /* background: linear-gradient(to bottom,rgb(231, 145, 6),#f7c1ca); */
+    background: linear-gradient(to right,rgb(231, 145, 6),rgba(204, 181, 173, 0.922));
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+form img[alt='user']{
+    position: absolute;
+    top: -60px;
+    left: 108px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+
+}
+form h2{
+    color: #fff;
+    text-align: center;
+    margin-top: 90px;
+}
+form .text1,
+input[type='password'],
+form .text
+{
+    position: relative;
+    outline: none;
+    border: none;
+    width: 250px;
+    height: 35px;
+    border-bottom: 2px solid #f0f4d8;
+    background: none;
+    padding: 5px;
+    color: #fff;
+    left: 48px;
+}
+form .text2{
+    top:138px;
+    position: absolute;
+    outline: none;
+    border: none;
+    width: 250px;
+    height: 35px;
+    border-bottom: 2px solid #f0f4d8;
+    background: none;
+    padding: 5px;
+    color: #fff;
+    left: 48px;
+}
+form .text{
+    
+    top:16px;
+}
+form .text1{
+    top: 36px;
+}
+form [type="password"]{
+    top: 60px;
+}
+form ::placeholder{
+    color: #fff;
+}
+form input[value='login'],
+form input[value='signup']{
+    position: absolute;
+    top:305px;
+    left: 110px;
+    width: 130px;
+    height: 35px;
+    background: 30077FF;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to left,rgb(231, 145, 6),rgba(204, 181, 173, 0.922));
+    border-radius:15px ;
+    font-size: 20px;
+}
+form .link{
+    color: white;
+    text-shadow: 3px 3px 0 rgba(243, 84, 26, 0.922);
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+form input[value='login']:hover{
+    background: linear-gradient(to bottom,rgb(231, 145, 6),rgba(204, 181, 173, 0.922));
+}
+form p{
+    position: absolute;
+    top: 360px;
+    left: 50px;
+}
+form p:hover{
+    /* color: #72c9ff; */
+    cursor: pointer;
+}
+form .p1 ,form .p2 ,form .p3{
+    color: rgb(235, 51, 51);
+    position: absolute;
+    /* top: -1px; */
+    height: 28px;
+    margin: 26px 0px;
+    width: 70%;
+    background: linear-gradient(to right,rgb(231, 145, 6),rgba(204, 181, 173, 0.922));
+    /* display: grid;
+    justify-content: space-between;
+    cursor: auto; */
+}
+form .p1{
+    top: 28%;
+}
+form .p2{
+    top: 170px;
+}
+form .p3{
+    top: 55%;
+}
+form .pass{
+    top: 88px;
+}
